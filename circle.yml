@@ -16,7 +16,7 @@ test:
   pre:
     - android list avd
     - android list device
-    - emulator -avd circle-android22 -no-audio -no-window -verbose: 
+    - emulator -avd circleci-android22 -no-audio -no-window -verbose: 
         background: true
         parallel: true
     - android list device
